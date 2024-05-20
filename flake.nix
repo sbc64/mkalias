@@ -1,7 +1,7 @@
 {
   description = "A simple command-line tool to create Finder aliases";
 
-  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-22.11";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
 
   outputs = { self, nixpkgs }:
     let
